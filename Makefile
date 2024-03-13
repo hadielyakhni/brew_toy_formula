@@ -1,10 +1,5 @@
-CC = gcc
-CFLAGS = -Wall
-
-TARGET = hadi-hello-world
-
-$(TARGET): main.c
-\t$(CC) $(CFLAGS) -o $(TARGET) main.c
+hadi-hello-world: main.c
+\tgcc -Wall -o hadi-hello-world main.c
 
 clean:
-\trm -f $(TARGET)
+\trm -f hadi-hello-world
