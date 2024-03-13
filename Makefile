@@ -4,7 +4,7 @@ CFLAGS = -Wall
 TARGET = hadi-hello-world
 
 $(TARGET): main.c
-    $(CC) $(CFLAGS) -o $(TARGET) main.c
+\t$(CC) $(CFLAGS) -o $(TARGET) main.c
 
 clean:
-    rm -f $(TARGET)
+\trm -f $(TARGET)
