@@ -1,5 +1,5 @@
 hadi-hello-world: main.c
-\tgcc -Wall -o hadi-hello-world main.c
+	gcc -Wall -o hadi-hello-world main.c
 
 clean:
-\trm -f hadi-hello-world
+	rm -f hadi-hello-world
