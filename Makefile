@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall
 
-TARGET = hello_world
+TARGET = hadi-hello-world
 
 $(TARGET): main.c
     $(CC) $(CFLAGS) -o $(TARGET) main.c
